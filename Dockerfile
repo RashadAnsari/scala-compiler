@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM java:8
 
 # Env variables
 ENV SCALA_VERSION 2.11.11
