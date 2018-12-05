@@ -1,8 +1,8 @@
 FROM java:8
 
 # Env variables
-ENV SCALA_VERSION 2.11.11
-ENV SBT_VERSION 0.13.15
+ENV SCALA_VERSION 2.12.4
+ENV SBT_VERSION 1.2.1
 
 # Install Scala
 RUN  curl -fsLO https://downloads.lightbend.com/scala/$SCALA_VERSION/scala-$SCALA_VERSION.deb
